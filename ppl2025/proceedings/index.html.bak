@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="ronbunshu.css">
+    <title>PPL 2025 発表予稿集 まえがき</title>
+</head>
+
+<body>
+    <img src="jssst-logo-bw.gif" width="100" class="jssst_logo" alt="JSSST">
+    主催 日本ソフトウェア科学会プログラミング論研究会
+    <hr>
+    <h1>第26回プログラミングおよびプログラミング言語ワークショップ発表予稿集<br>
+        Proceedings of the 26th JSSST Workshop on Programming and Programming Languages (PPL 2024)</h1>
+    <div class="venue">
+        2024年3月5日〜7日<br>朱鷺メッセ<br>
+    </div>
+    <h2>前書き</h2>
+    <p>本予稿集は，2024年3月5日から7日まで朱鷺メッセで開催された，第26回プログラミングおよびプログラミング言語ワークショップ (略称 PPL 2024，日本ソフトウェア科学会プログラミング論研究会主催) における研究発表予稿・発表資料を収録したものである．</p>
+    <p>PPL ワークショップは，プログラミングとプログラミング言語に関連する幅広い分野の研究者・技術者・学生が一堂に会し，プログラミング方法論，プログラミング言語の理論・設計・実装などに関する最新の研究成果の発表や紹介，新たな研究課題の提案・討議・アイデア交換を行うことを目的とした，合宿形式の研究集会である．1999年3月の第1回を皮切りに毎年3月に開催され，今まで熱川温泉 (1999)，舘山寺温泉 (2000)，湯の花温泉 (2001)，別府温泉 (2002)，富士市 (2003)，蒲郡温泉 (2004)，水上温泉 (2005)，雄琴温泉 (2006)，山代温泉 (2007)，秋保温泉 (2008)，飛騨高山温泉 (2009)，琴平温泉 (2010)，定山渓温泉 (2011)，白浜温泉 (2012)，会津若松東山温泉 (2013)，阿蘇温泉 (2014)，道後温泉 (2015)，たまの温泉 (2016)，石和温泉 (2017)，皆生温泉 (2018)，志戸平温泉 (2019)，嬉野温泉 (2020) (現地開催は中止)，オンライン開催 (2021)，オンライン開催 (2022)，名古屋大学 (2023) と回を重ねてきた．今回は，原則対面としながらもZoom，Slackを用いたハイブリッド開催とした．</p>
+    <p>PPL 2024 では，4つのカテゴリの発表を募集した．カテゴリ1は国内外で未発表の研究の発表，カテゴリ2は国際会議・学術雑誌等で既発表もしくは発表予定である研究の紹介，カテゴリ3は現在進行中の研究や問題提起などに関するポスター・デモ発表，カテゴリ4は研究動向の紹介や分野間の相互理解と参加者の知識の底上げとなるサーベイ・チュートリアルの発表である．カテゴリ3, 4については，既発表・未発表の別を問わない．</p>
+    <p>PPL 2024では，前回までのワークショップの理念を継承して，以下の点に重きをおいた．</p>
+    <ol>
+        <li>カテゴリ1は，最終的な業績ではなく通過点であるという観点から，国際会議や論文誌への投稿を念頭に，各論文に対し最低3名の査読者に依頼し，丁寧かつ建設的な査読レポートと，質の高いコメントを心掛けた．また，予稿集の配布は参加者のみへの限定的なものとした．</li>
+        <li>PPLが発表の場であると同時に，参加者に多様なメリットがあるよう，最先端の研究の紹介や議論の機会を多く設けるよう心掛けた．前者のためにカテゴリ2や招待講演，後者のためにカテゴリ3を設けた．</li>
+        <li>最新の研究動向の紹介，専門化が進むプログラム言語分野間の相互理解と全体の底上げのために，カテゴリ4を設けた．</li>
+    </ol>
+    <p>カテゴリ1には26件の投稿があり，プログラム委員による査読と議論を経て，20件を採択した．カテゴリ2には10件，カテゴリ3には67件，カテゴリ4には1件の応募があり，プログラム委員による議論に基づき，カテゴリ2の9件とカテゴリ3とカテゴリ4の全てを採択した．さらに，招待講演を会津大学の渡部有隆氏と産業技術総合研究所の山田 晃久氏に依頼し，快くお引き受けいただいた．</p>
+    <p>なお，カテゴリ1 の採択論文の中から特に独創的なアイデアや顕著な成果を含むものについて論文賞を授与する方針で，プログラム委員の間で検討した結果，以下の論文を論文賞に決定した．</p>
+    <div class="best_paper">
+        Regular Expressions with Backreferences on Multiple Context-Free Languages, and Star-Closedness<br>
+        野上 大成（Waseda University），寺内 多智弘（Waseda University）
+    </div>
+    <p>PPL 2024 の準備にあたっては数多くの方々にご協力いただいた．ここに謝辞を述べたい．</p>
+    <p>プログラム委員の方々には，PPL 2024 のために貴重な時間を割いて，非常に厳しいスケジュールの中で質の高い査読を行っていただいた．このプログラム委員の方々のご尽力こそが PPL を支える屋台骨である．深く感謝したい．
+    </p>
+    <p>ワークショップ運営に関しては，歴代プログラム共同委員長の方々，プログラミング論研究会主査である中野 圭介氏をはじめとする，プログラミング論研究会運営委員会の方々に，多くのアドバイスをいただいた．参加登録受付や会場に関する連絡・予算等の事務的作業は，組織委員長の木村 大輔氏をはじめとする，組織委員会の方々に引き受けていただいた．</p>
+    <p>また，PPL 2024 の開催にあたり企業スポンサーとして<a href="https://dena.com/jp/">株式会社ディー・エヌ・エー</a>，<a href="https://www.klab.com/jp/">KLab株式会社</a>，<a href="https://www.fixstars.com/ja">株式会社フィックスターズ</a>，<a href="https://kxc.inc/">合同会社コトイコンサルタンシー</a>，<a href="https://jobs.st.inc/engineer">STORES株式会社</a>，<a href="https://herp.co.jp/">株式会社HERP</a>のご支援を頂いた．各社のご支援に深く感謝申し上げる．</p>
+    <p>最後に，招待講演の依頼を快くお引き受けいただいた会津大学の渡部 有隆氏と産業技術総合研究所の山田 晃久氏，そして PPL 2024 に活発な投稿・発表をしていただいた著者の方々に改めて深く感謝するとともに，ワークショップに参加して下さった多くの方々に最大の感謝の気持ちを表したい．</p>
+    <div class="chairs">
+        <table>
+            <tbody>
+                <tr>
+                    <td>安部 達也</td>
+                    <td>(千葉工業大学)</td>
+                </tr>
+                <tr>
+                    <td>川端 英之</td>
+                    <td>(広島市立大学)</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="date">2024年 3月</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2>プログラム委員会(五十音順)</h2>
+    <table class="members">
+     <tbody>
+        <tr>
+          <th></th>
+          <td><a href="https://takashi-ishio.github.io/">石尾 隆</a></td>
+          <td class="affil">公立はこだて未来大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="http://www.cis.shimane-u.ac.jp/~munehiro/">岩見 宗弘</a></td>
+          <td class="affil">島根大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-OGATAK">緒方 一則</a></td>
+          <td class="affil">日本IBM</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://researchmap.jp/kkuramitsu">倉光 君郎</a></td>
+  		  <!-- https://kuramitsulab.github.io/ の方がよい？ -->
+          <td class="affil">日本女子大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.ksl.ci.kyutech.ac.jp/~kourai/index-j.html">光来 健一</a></td>
+          <td class="affil">九州工業大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.trs.css.i.nagoya-u.ac.jp/~sakai/">酒井 正彦</a></td>
+          <td class="affil">名古屋大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="http://www.math.akita-u.ac.jp/~ryoma/">新屋 良磨</a></td>
+          <td class="affil">秋田大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="http://www.ysumi.sakura.ne.jp/">澄川 靖信</a></td>
+          <td class="affil">拓殖大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.clas.kitasato-u.ac.jp/~takano/">高野 保真</a></td>
+          <td class="affil">北里大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://takisaka.github.io/">滝坂 透</a></td>
+          <td class="affil">電子科技大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="http://www.itri.aist.go.jp/cpc/researcher/tanaka.html">田中 哲</a></td>
+          <td class="affil">産業技術総合研究所</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://eldora.netlify.app/">千田 忠賢</a></td>
+          <td class="affil">NTT社会情報研究所</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.iag.meisei-u.ac.jp/meuhp/KgApp?resId=S000493">長 慎也</a></td>
+          <td class="affil">明星大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.i.h.kyoto-u.ac.jp/users/tsuiki/">立木 秀樹</a></td>
+          <td class="affil">京都大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://researchmap.jp/takeshi_tsukada">塚田 武志</a></td>
+          <td class="affil">千葉大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://aabaa.github.io/kazuhisa.nakasho">中正 和久</a></td>
+          <td class="affil">山口大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://researchmap.jp/yoshiki_nakamura">中村 誠希</a></td>
+          <td class="affil">東京工業大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.math.kyoto-u.ac.jp/~susumu/">西村 進</a></td>
+          <td class="affil">京都大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://group-mmm.org/~ichiro/indexj.html">蓮尾 一郎</a></td>
+          <td class="affil">国立情報学研究所</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://cis.hosei.ac.jp/depts/cs/hidaka/">日高 宗一郎</a></td>
+          <td class="affil">法政大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="http://www.hosobe.org/ja/">細部 博史</a></td>
+          <td class="affil">法政大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="https://www.kitakyu-u.ac.jp/env/faculty/d-media/introduction/susumu-yamazaki.html">山崎 進</a></td>
+          <td class="affil">北九州市立大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href=""></a>山崎 徹郎</td>
+          <td class="affil">東京大学</td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><a href="http://www.fos.kuis.kyoto-u.ac.jp/~mwaga">和賀 正樹</a></td>
+          <td class="affil">京都大学</td>
+        </tr>
+     </tbody>
+
+    </table>
+    <h2>組織委員会</h2>
+    <table class="members">
+     <tbody>
+        <tr>
+          <th>組織委員長</th>
+          <td><a href="https://researchmap.jp/d-kmr/">木村 大輔</a></td>
+          <td class="affil">東邦大学</td>
+        </tr>
+        <tr>
+          <th>組織副委員長</th>
+          <td><a href="https://keigoimai.info/">今井 敬吾</a></td>
+          <td class="affil">ディー・エヌ・エー</td>
+        </tr>
+        <tr>
+          <th>財務担当</th>
+          <td><a href="https://mir-ikbch.github.io/">池渕 未来</a></td>
+          <td class="affil">京都大学</td>
+        </tr>
+        <tr>
+          <th>財務副担当</th>
+          <td><a href="https://www.chiguri.info/cv.html">森口 草介</a></td>
+          <td class="affil">東京工業大学</td>
+        </tr>
+        <tr>
+          <th>会場担当</th>
+          <td><a href="https://www.shonan-it.ac.jp/teachers/informatics/n-matsuda/">松田 直祐</a></td>
+          <td class="affil">湘南工科大学</td>
+        </tr>
+        <tr>
+          <th>会場副担当</th>
+          <td><a href="https://www.trs.cm.is.nagoya-u.ac.jp/~k-hasimt/">橋本 健二</a></td>
+          <td class="affil">名古屋大学</td>
+        </tr>
+        <tr>
+          <th>渉外担当</th>
+          <td><a href="https://www.riec.tohoku.ac.jp/~asada/">浅田 和之</a></td>
+          <td class="affil">東北大学</td>
+        </tr>
+        <tr>
+          <th>プログラム共同委員長</th>
+          <td><a href="https://abetatsuya.github.io/">安部 達也</a></td>
+          <td class="affil">千葉工業大学</td>
+        </tr>
+        <tr>
+          <th>プログラム共同委員長</th>
+          <td><a href="http://www.ca.info.hiroshima-cu.ac.jp/users/kawabata/wiki/doku.php">川端 英之</a></td>
+          <td class="affil">広島市立大学</td>
+        </tr>
+        <tr>
+          <th>前プログラム共同委員長</th>
+          <td><a href="http://www2.sf.ecei.tohoku.ac.jp/~kztk/">松田 一孝</a></td>
+          <td class="affil">東北大学</td>		  
+        </tr>
+        <tr>
+          <th>前プログラム共同委員長</th>
+          <td><a href="http://www.spa.is.uec.ac.jp/~komiya/">小宮 常康</a></td>
+          <td class="affil">電気通信大学</td>
+        </tr>
+     </tbody>
+    </table>
+
+    <hr>
+    <h2><a href="presentations.html">採録発表予稿・発表資料</a>（<a href="./proceedings.zip">zip</a>）</h2>
+    <hr>
+    <div class="notice">
+<!--        <p><b>注1</b> プログラムについては<a href="https://jssst-ppl.org/workshop/2024/program.html">web上のもの</a>をご参照ください．</p>
+-->
+        <p><b>注</b> PPL 2024
+            は国内の研究者に予備段階にある研究を発表する機会を与えるワークショップであるとともに，ここでの議論に基づき改良を加えた論文を国際会議や学術雑誌に投稿することを推奨しています．そのため，ここにあるオンライン予稿集は
+            (ISBN,ISSNなどを持たない) 非公式のものであり，他の場所での出版を妨げるものではありません．</p>
+        <p>同梱のカテゴリ1 予稿および発表資料は各著者によって提供されたものであり，著作権は各著者に属します．転載などに関しては各著作権者の許可を得る必要があります．</p>
+        <p>カテゴリ2 は，査読付の国際会議または学術雑誌等で既発表 (もしくは採録決定済)である研究を紹介をする場であり，そこでの発表は論文の再出版・二重投稿などには該当しません．</p>
+        <p>NOTICE: PPL 2024 aims to function as an informal workshop,
+            which gives researchers an opportunity to disseminate their
+            preliminary work and get feedbacks from the Japanase research
+            community. It also encourages submissions of its revised version
+            to international conferences or refereed journals. Thus, the
+            online proceedings here should also be considered informal
+            (neither ISBN nor ISSN is assigned) so as not to preclude
+            publication elsewhere.</p>
+        <p>The documents distributed with this page have been provided by
+            the contributing authors. Copyright of each document is
+            maintained by the corresponding authors. These works may not be
+            reposted or redistributed without the explicit permission of the
+            copyright holder.</p>
+        <p>The second category of the PPL workshops is intended to help
+            researchers disseminate their research to the domestic community
+            by providing opportunities to present their papers that have
+            already been accepted by international conferences or journals. Therefore, presentations
+            in this category, which are informal, shouldn't be considered
+            republication or results of double submissions of any kind.</p>
+    </div>
+</body>
+
+</html>

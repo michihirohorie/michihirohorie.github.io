@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link charset="euc-jp" href="./ppl.css" rel="stylesheet" type="text/css">
+<title>招待講演 -- PPL 2025</title>
+</head>
+
+<body>
+
+<!-- Sync with other pages -->
+<div id="headline">
+<img src="./jssstppl_logo_hl.png" alt="jssst sig-ppl">
+</div>
+<ul class="navibar cf">
+  <li><a href="index.html">Top</a></li>
+  <li><span class="current">招待講演</span></li>
+  <li><a href="accepted.html">採択リスト</a></li>
+  <li><a href="program.html">プログラム</a></li>
+  <li><a href="registration.html">参加登録要領</a></li>
+  <li><a href="access.html">交通案内</a></li>
+  <li><a href="sponsorship.html">スポンサー募集</a></li>
+<!--  <li><a href="covid19_guideline.html">COVID-19対策</a></li> -->
+  <li><a href="anti-harrasment-policy.html">アンチハラスメントポリシー</a></li>
+</ul>
+
+
+<h1>PPL 2024：招待講演</h1>
+
+
+<div class="notice shadow">
+  <p>PPL2024では，以下の<em>2件の招待講演</em>を予定しております．</p>
+  <table>
+      <tr>
+        <th><a href="https://u-aizu.ac.jp/~yutaka/">渡部 有隆</a></th>
+        <td class="affil">会津大学</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><a href="#invited2">コードレビュー AI によるプログラミング学習支援</a></td>
+      </tr>
+      <tr>
+        <th><a href="https://akihisayamada.github.io/">山田 晃久</a></th>
+        <td class="affil">産業技術総合研究所</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><a href="#invited1">岩村の補題、超限帰納法と Isabelle/HOL</td>
+      </tr>
+  </table>
+  </div>
+
+<h2 id="invited2">招待講演 (1)：コードレビュー AI によるプログラミング学習支援</h2>
+<div class="section">
+<p class="speaker">
+渡部 有隆（会津大学）
+</p>
+<h3>概要</h3>
+<p>
+コードレビューは、開発者が書いたコードの品質を保証し、改善するための重要なプロセスです。これはプログラミングの学習者にとっても大きな学びの機会を提供します。しかし、特に教育現場においては、指導者の不足が問題となり、十分に実践できません。この講演では、プログラミング学習支援にAIを活用し、効果的なコードレビューの提供を目指す研究プロジェクトを紹介します。具体的には、昨今注目を集めている大規模言語モデル（LLM）を用いた手法に焦点を当て、コードレビュー活動を支援する－コード分類、バグ分類、コード修正、リファクタリング－に関する研究成果を紹介します。また、本プロジェクトの研究基盤となっているAizu Online Judge (AOJ)についても紹介します。
+</p>
+<h3>略歴</h3>
+<p>
+会津大学大学院コンピュータ理工学研究科博士課程を修了後、日本学術振興会特別研究員(PD)に採用。2008年より会津大学助教。2009年より会津大学准教授。2016年より会津大学上級准教授。研究テーマはソフトウェア工学、AI工学、プログラミング、教育支援など。Aizu Online Judgeを開発。情報処理学会優秀教育賞受賞。
+</p>
+</div>
+
+<h2 id="invited1">招待講演 (2)： 岩村の補題、超限帰納法と Isabelle/HOL</h2>
+<div class="section">
+<p class="speaker">
+山田 晃久（産業技術総合研究所）
+</p>
+
+<h3>概要</h3>
+<p>
+Isabelle/HOLは、1986年から開発が続く、現在でも最も広く利用されている定理証明支援系の一つである。Isabelle/HOLが採用する公理系Higher-Order Logic (HOL)は、単純型付きラムダ計算に基づいており、一般の順序数や超限帰納法を扱えない等の制約がしばしば指摘される。本発表では、一般には順序数や(非可算の)超限帰納法を用いた証明しか知られていない定理のIsabelle/HOL形式化、特に有向集合に関する岩村の補題やそのdomain theoreticな応用について紹介する。
+</p>
+<h3>略歴</h3>
+<p>
+民間企業を経て、2014年 名古屋大学大学院 情報科学研究科 博士後期課程修了。その後Innsbruck大学、国立情報学研究所を経て、現在、産業技術総合研究所 サイバーフィジカルセキュリティ研究センター インフラ防護セキュリティ研究チーム 主任研究員。博士(情報科学)。専門は項書き換え、形式論理。
+</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+/*　the following entries are for the program page */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    width: min(calc(800/12 * 1rem), 90%);
+    padding: 0;
+    font-family: serif;
+    color: black;
+    /* font-size: 10.5pt; */
+}
+
+.jssst_logo {
+    margin-right: 1em;
+    vertical-align: top;
+}
+
+.venue {
+    text-align: center;
+}
+
+.best_paper {
+    text-align: center;
+    font-weight: bold;
+}
+
+.chairs table {
+    margin-left: auto;
+}
+
+.date {
+    margin-left: auto;
+    text-align: right;
+}
+
+td {
+    font-family: serif;
+    color: black;
+    font-size: 1rem;
+}
+
+a:link {
+    color: #333
+}
+
+a:visited {
+    color: #555
+}
+
+a:active {
+    color: #999
+}
+
+a:hover {
+    color: #b80
+}
+
+h1 {
+    text-align: center;
+    font-size: 15pt;
+    font-size: calc(15/10.5 * 1rem);
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-size: calc(12/10.5 * 1rem);
+}
+
+div.notice {
+    font-size: 9pt;
+    font-size: calc(9/10.5 * 1rem);
+}
+
+b {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div.part_title {
+    margin: 1em 0 1em 0;
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-size: calc(12/10.5 * 1rem);
+    font-weight: bold;
+}
+
+div.event {
+    margin: 1em 0 1em 0;
+}
+
+h3,
+span.event_title {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #5083a4;
+    margin: 0px;
+}
+
+div.entry {
+    margin: 1em 0px;
+}
+
+/* 
+div.cat0 {
+    font-size: 12pt;
+    margin: 1em 0 1em 1em;
+    overflow: auto
+}
+
+div.cat1 {
+    font-size: 12pt;
+    margin: 1em 0 1em 1em;
+    overflow: auto
+}
+
+div.cat2 {
+    font-size: 12pt;
+    margin: 1em 0 1em 1em;
+    overflow: auto
+}
+
+div.cat3 {
+    font-size: 12pt;
+    margin: 1em 0 1em 1em;
+    overflow: auto
+}
+
+div.cat4 {
+    font-size: 12pt;
+    margin: 1em 0 1em 1em;
+    overflow: auto
+} */
+
+.author {
+    font-size: 11pt;
+    font-size: calc(11/10.5 * 1rem);
+    margin: 3px 0 0 0;
+    display: block;
+}
+
+div.abstract {
+    font-size: 11pt;
+    font-size: calc(11/10.5 * 1rem);
+    margin: 3px 0 0 0;
+    display: none;
+}
+
+div.citation {
+    font-size: 11pt;
+    font-size: calc(11/10.5 * 1rem);
+    margin: 3px 0 0 0;
+}
+
+span.title {
+    font-size: 11pt;
+    font-size: calc(11/10.5 * 1rem);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #aa2821;
+}
+
+span.title a {
+    color: #aa2821;
+    text-underline-offset: 0.1rem;
+}
+
+span.title a:visited {
+    color: hsl(3, 47%, 20%);
+}
+
+span.title a:hover {
+    background-color: hsla(3, 67%, 40%, 20%);
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 0rem 0.3rem hsla(3, 67%, 40%, 20%);
+}
+
+span.omit {
+    display: none;
+}
+
+span.shown {
+    display: inline;
+}
+
+span.toggler {
+    font-size: 11pt;
+    font-size: calc(11/10.5 * 1rem);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #aa2821;
+}
+
+.all_toggler {
+    font-size: 12pt;
+    font-size: calc(12/10.5 * 1rem);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #aa2821;
+}
+
+.poster_control {
+    background-color: hsl(20, 27%, 98%);
+    margin-bottom: 1em;
+    padding: 1em;
+    border-top: 0.1em solid #CCC;
+    border-bottom: 0.1em solid #CCC;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: hsl(3, 57%, 50%);
+    color: white;
+    border-radius: 2em;
+    padding: 0.1em 1em;
+    margin: 0.1em 0.2em;
+
+    box-shadow: 1px 1px 0.2em 1px hsla(3, 57%, 40%, 20%);
+    margin: 0.1em 0.3em
+}
+
+.button:hover {
+    background-color: hsl(3, 57%, 60%);
+}
+
+.button:active {
+    background-color: hsl(3, 47%, 65%);
+}
+
+
+table.members th {
+    text-align: left;
+}
+
+
+td.affil:before {
+    content: "（";
+}
+
+td.affil:after {
+    content: "）";
+}
+
+summary {
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+details[open] {
+    background-color: hsl(90, 00%, 96%);
+    border-radius: 0.5em;
+}
+
+
+details p {
+    margin: 0px;
+    padding: 0.5em;
+}
+
+details p+p {
+    padding-top: 0px;
+}

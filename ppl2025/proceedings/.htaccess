@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Please input your id and password."
+AuthUserFile /home/jssst-ppl/www/jssst-ppl.org/workshop/2024/proceedings/.htpasswd
+require valid-user
+
