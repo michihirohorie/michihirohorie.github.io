@@ -15,7 +15,9 @@
 <ul class="navibar cf">
   <li><a href="index.html">Top</a></li>
   <li><span class="current">招待講演</span></li>
+<!--
   <li><a href="accepted.html">採択リスト</a></li>
+-->
   <li><a href="program.html">プログラム</a></li>
   <li><a href="registration.html">参加登録要領</a></li>
   <li><a href="access.html">交通案内</a></li>
@@ -28,9 +30,66 @@
 </ul>
 
 
-<h1>PPL 2024：招待講演</h1>
+<h1>PPL 2025：招待講演</h1>
 
-<h2>TBD</h2>
+<div class="notice shadow">
+  <p>PPL2025では，以下の<em>2件の招待講演</em>を予定しております．</p>
+  <table>
+      <tr align="left">
+        <th><a href="http://www.dais.is.tohoku.ac.jp/take/index-j.html">伊藤 健洋</a></th>
+        <td class="affil">東北大学</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><a href="#invited1">組合せ遷移への招待</a></td>
+      </tr>
+      <tr align="left">
+        <th><a href="https://cp.kaist.ac.kr/jeehoon.kang/">Jeehoon Kang</a></th>
+        <td class="affil">KAIST</td>
+      </tr>
+      <tr>
+        <th></th>
+        <td><a href="#invited2">Hardware Design is Parallel Programming</td>
+      </tr>
+  </table>
+  </div>
 
+<h2 id="invited2">招待講演 (1)：組合せ遷移への招待</h2>
+<div class="section">
+<p class="speaker">
+伊藤 健洋（東北大学）
+</p>
+<h3>概要</h3>
+<p>
+組合せ遷移とは，「状態空間上での遷り変り」を数理モデル化し，アルゴリズム理論の観点から計算複雑性を解析する研究である．組合せ遷移の研究枠組が2008年に提唱されて以来，その研究は世界的に広がり，今ではアルゴリズム理論の新しい研究潮流となっている．また近年では，組合せ遷移の概念が理論から産業まで多種多様な分野に現れることもわかってきた．数学の諸分野に現れる研究を組合せ遷移の視点から捉えたり，組合せ遷移問題を解く汎用ソルバーの開発や産業応用に向けた工学的アプローチの研究に取り組んだりと，様々な研究が発表されている．特に日本では，科研費・学術変革領域研究(B)「組合せ遷移の展開に向けた計算機科学・工学・数学によるアプローチの融合」（2020－2022年度）が実施され，組合せ遷移を基軸とした融合研究が活発に行われている．本講演では，組合せ遷移の背景や応用，最近の研究の取組まで幅広く紹介したい．
+</p>
+</div>
+
+<h2 id="invited1">招待講演 (2)：Hardware Design is Parallel Programming</h2>
+<div class="section">
+<p class="speaker">
+Jeehoon Kang（KAIST）
+</p>
+
+<h3>概要</h3>
+<p>
+Hardware design has long been considered distinct from software programming.
+In this talk, I will share my experiences challenging this tradition over
+the past five years,
+demonstrating how treating hardware design as a form of parallel
+programming facilitates the design of efficient hardware RTL.
+
+We initially showed that designs with structural hazards could be
+represented by functional programming combinators, such as map and
+reduce, enabling efficient design similar to that of distributed systems
+(ASPLOS 2023).
+We then extended this approach to support designs with data and control
+hazards (PLDI 2024).
+We recently generalized this approach to imperative programs, moving beyond
+the combinator style (submitted).
+In doing so, we could easily design an efficient 5-stage RISC-V CPU and a
+100Gbps network interface card.
+</p>
+</div>
 
 </body>
