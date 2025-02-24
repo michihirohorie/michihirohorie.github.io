@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-  --main-color: #F9FFFF; /* 一番でかい背景の色．黒字が見えるよう明るめが無難 */
+  --main-color: #fdeeed; /* 一番でかい背景の色．黒字が見えるよう明るめが無難 */
   --navi-color: #000000; /* 一番上の 「Top」 とか 「招待講演」 とかの背景色 */
   --title-color: #000000;  /* 「おしらせ」とかのヘッダ背景色 */
-  --section-color: #DCF2F6; /* 「おしらせ」の下の文章の背景色 */
+  --section-color: #f0e1ef; /* 「おしらせ」の下の文章の背景色 */
   --semititle-font-color: #886b20; /* 「プログラム委員会」とかのフォント色 */
   --hover-color: #886b20; /* 一番上の「招待講演」とかにカーソルが載ったときの背景色 */
 }
